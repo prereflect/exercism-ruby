@@ -1,4 +1,4 @@
-exercism.io/[prereflect](http://exercism.io/prereflect)/[Gigasecond](http://exercism.io/submissions/c463069f5842402d8ed42166c2bbb306)
+exercism.io / [prereflect](http://exercism.io/prereflect) / [Gigasecond](http://exercism.io/submissions/c463069f5842402d8ed42166c2bbb306)
 
 # Gigasecond
 
