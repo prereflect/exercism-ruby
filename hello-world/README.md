@@ -1,4 +1,4 @@
-exercism.io/[prereflect](http://exercism.io/prereflect)/[Hello World](http://exercism.io/submissions/fdb86734b12c454893c06bf49496a2b4)_
+exercism.io/[prereflect](http://exercism.io/prereflect)/[Hello World](http://exercism.io/submissions/fdb86734b12c454893c06bf49496a2b4)
 
 # Hello World
 
