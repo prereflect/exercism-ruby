@@ -1,3 +1,4 @@
+exercism.io/[prereflect](http://exercism.io/prereflect)/[Hamming](http://exercism.io/submissions/240fb32a9b9e4d0db4043fad8b1f75cf)
 # Hamming
 
 Write a program that can calculate the Hamming difference between two DNA strands.
