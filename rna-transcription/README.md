@@ -1,3 +1,5 @@
+exercism.io / [prereflect](http://exercism.io/prereflect) / [Rna Transcription](http://exercism.io/submissions/9d0f95222d8a40aa9c455ab6b6b47e34)
+
 # Rna Transcription
 
 Write a program that, given a DNA strand, returns its RNA complement (per RNA transcription).
