@@ -17,6 +17,6 @@ class Complement
   private
 
   def self.valid_strand?(strand, type)
-    fail ArgumentError, "Incorrect nucleotide" if strand =~ /[^#{type}]/
+    fail ArgumentError, "Incorrect nucleotide" if strand =~ /[^#{type.join}]/
   end
 end
