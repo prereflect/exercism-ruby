@@ -1,8 +1,8 @@
 class Complement
-  VERSION= 2
+  VERSION = 2
 
-  DNA_NUCLEOTIDES = ['G', 'C', 'T', 'A']
-  RNA_NUCLEOTIDES = ['C', 'G', 'A', 'U']
+  DNA_NUCLEOTIDES = %w(G C T A)
+  RNA_NUCLEOTIDES = %w(C G A U)
 
   def self.of_dna(strand)
     valid_strand?(strand, DNA_NUCLEOTIDES)
@@ -14,9 +14,7 @@ class Complement
     strand.tr(RNA_NUCLEOTIDES.join, DNA_NUCLEOTIDES.join)
   end
 
-  private
-
   def self.valid_strand?(strand, type)
-    fail ArgumentError, "Incorrect nucleotide" if strand =~ /[^#{type.join}]/
+    fail ArgumentError, 'Incorrect nucleotide' if strand =~ /[^#{type.join}]/
   end
 end
