@@ -1,4 +1,4 @@
-exercism.io / [prereflect](http://exercism.io/prereflect) / [Rna Transcription](http://exercism.io/submissions/a86ada9394b44615a793a9943c008669)
+exercism.io / [prereflect](http://exercism.io/prereflect) / [Rna Transcription](http://exercism.io/submissions/5d987ed5400a4fccbd727bfab601dcec)
 
 # Rna Transcription
 
