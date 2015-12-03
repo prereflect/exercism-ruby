@@ -11,15 +11,15 @@ class Raindrops
     Prime.prime_division(num).flat_map { |factor, power| [factor] * power }
   end
 
-  def self.sounds(factors)
-    factors & [3, 5, 7]
+  def self.sounds(the_factors)
+    the_factors & [3, 5, 7]
   end
 
-  def self.raindrop_speak(sounds)
+  def self.raindrop_speak(the_sounds)
     raindrop_sounds = { 3 => 'Pling', 5 => 'Plang', 7 => 'Plong' }
     raindrops_say = ''
 
-    sounds.each do |number|
+    the_sounds.each do |number|
       raindrops_say << raindrop_sounds.fetch(number)
     end
 
