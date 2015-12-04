@@ -10,4 +10,7 @@ class Squares
 
   def sum_of_squares
   end
+
+  def difference
+  end
 end
